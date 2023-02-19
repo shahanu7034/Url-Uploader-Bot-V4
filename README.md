@@ -19,6 +19,11 @@ Telegram Bot to Upload Links.
 
 ☣️ Updates Channel support 
 
+### Demo Bot
+<a href="https://telegram.me/urluploaderadvancedbot"><img src="https://img.shields.io/badge/Demo-Telegram%20Bot-green.svg?logo=telegram"></a>
+
+
+
 ## BOT COMMANDS
 
 * start - 👻 Check I'm alive or dead 
