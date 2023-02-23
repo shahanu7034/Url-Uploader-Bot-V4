@@ -21,7 +21,7 @@ logging.getLogger("pyrogram").setLevel(logging.WARNING)
 async def echo(bot, message):
     if Config.LOG_CHANNEL:
         try:
-            log_message = await massage.forward(Config.LOG_CHANNEL)
+            log_message = await message.forward(Config.LOG_CHANNEL)
             log_info = "Message Sender Information\n"
             log_info += "\nFirst Name: " + message.from_user.first_name
             log_info += "\nUser ID: " + str(message.from_user.id)
