@@ -2,10 +2,10 @@ import os
 
 class Config(object):
     # get a token from @BotFather
-    BOT_TOKEN = os.environ.get("BOT_TOKEN", )
+    BOT_TOKEN = os.environ.get("1223411843:AAFa7MaLKX43TD6uTm8IIydI3a8Qlv8zxwc", )
     # The Telegram API things
-    API_ID = int(os.environ.get("API_ID", ))
-    API_HASH = os.environ.get("API_HASH",)
+    API_ID = int(os.environ.get("1242353", ))
+    API_HASH = os.environ.get("b3a18ad8cab67c73ee21881c5b76a7e1",)
     # Get these values from my.telegram.org
     # the download location, where the HTTP Server runs
     DOWNLOAD_LOCATION = "./DOWNLOADS"
@@ -26,16 +26,16 @@ class Config(object):
     # set timeout for subprocess
     PROCESS_MAX_TIMEOUT = 3600
     # your telegram id
-    OWNER_ID = int(os.environ.get("OWNER_ID",))
-    ADMINS = int(os.environ.get("ADMINS", ))
+    OWNER_ID = int(os.environ.get("391342978",))
+    ADMINS = int(os.environ.get("391342978", ))
     SESSION_NAME = "URLUPLOADERBOT"
     # database uri (mongodb)
-    DATABASE_URL = os.environ.get("DATABASE_URL",)
-    DATABASE_NAME = os.environ.get("DATABASE_NAME",)
+    DATABASE_URL = os.environ.get("mongodb+srv://shahanu7034:shahanu7034@cluster0.tg83ar4.mongodb.net/?retryWrites=true&w=majority",)
+    DATABASE_NAME = os.environ.get("cluster0",)
     MAX_RESULTS = "50"
     #update channel
-    UPDATE_CHANNEL = os.environ.get("UPDATE_CHANNEL",)
-    UPDATES_CHANNEL = os.environ.get("UPDATES_CHANNEL",)
+    UPDATE_CHANNEL = os.environ.get("-1001678913761",)
+    UPDATES_CHANNEL = os.environ.get("-1001678913761",)
     #log channel
-    LOG_CHANNEL = os.environ.get("LOG_CHANNEL")
+    LOG_CHANNEL = os.environ.get("-1001870858774")
     
